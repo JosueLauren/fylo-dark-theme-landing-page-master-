@@ -103,7 +103,7 @@ section.sessão-4-cards {
     height: auto;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 200px auto 50px auto;
     text-align: center;
     color: var(--White);
 }
