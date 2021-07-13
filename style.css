@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+:root {
+    --Dark-Blue-intro-and-email: hsl(217, 28%, 15%);
+    --Dark-Blue-main-background: hsl(218, 28%, 13%);
+    --Dark-Blue-footer-background:  hsl(216, 53%, 9%);
+    --Dark-Blue-testimonials-background: hsl(219, 30%, 18%);
+    --Cyan: hsl(176, 68%, 64%);
+    --Blue: hsl(198, 60%, 50%);
+    --Light-Red: hsl(0, 100%, 63%);
+    --White: hsl(0, 0%, 100%);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(218, 28%, 13%);
+}
+
+div.div-inicial {
+    width: 100%;
+    height: 1100px;
+    background-image: url(images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center top 100vh;
+    background-color: hsl(219, 30%, 18%);
+    padding-top: 50px;
+}
+
+header.cabeçalho {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto 50px auto;
+}
+
+nav.links-cabeçalho a {
+    text-decoration: none;
+    margin-right: 20px;
+    color: var(--White);
+    font-family: "Raleway", sans-serif;
+}
+
+nav.links-cabeçalho a:hover {
+    text-decoration: underline;
+}
+
+
+
+section.sessão-inicial {
+    width: 100%;
+    margin: 30px auto;
+    
+}
+
+section.sessão-inicial img {
+    width: 50%;
+    margin: 20px auto;
+    display: block;
+}
+
+div.desc-sessão-inicial {
+    width: 40%;
+    margin: 30px auto 50px auto;
+    text-align: center;
+    color: var(--White);
+}
+
+div.desc-sessão-inicial h1 {
+    font-size: 25px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 20px;
+
+}
+
+div.desc-sessão-inicial p {
+    font-family: "Open Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+div.desc-sessão-inicial a {
+    text-decoration: none;
+    padding: 15px 80px;
+    border-radius: 30px;
+    color: var(--White);
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+
+}
+
+div.desc-sessão-inicial a:hover {
+    opacity: 0.7;
+}
+
+section.sessão-4-cards {
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    color: var(--White);
+}
+
+div.cards {
+    width: 35%;
+    margin: 0px auto 60px auto;
+    font-family: "Raleway", sans-serif;
+
+}
+
+div.cards h1 {
+    margin: 20px auto;
+}
+
+div.cards p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+section.sessão-central {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 100px auto;
+}
+
+section.sessão-central img {
+    width: 50%;
+}
+
+div.desc-sessão-central {
+    width: 30%;
+    color: var(--White);
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 40px;
+}
+
+div.desc-sessão-central h1 {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+div.desc-sessão-central p {
+    margin: 0px 0px 20px 0px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-family: "Raleway", sans-serif;
+}
+
+div.desc-sessão-central a {
+    color: var(--Cyan);
+}
+
+div.desc-sessão-central a:hover {
+    color: var(--White);
+}
+
+img.arrow {
+    max-width: 16px;
+    max-height: 16px;
+}
+
+section.sessão-comentários {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 100px auto 50px auto;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position: top left 15px;
+    color: var(--White);
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+article.artigo-comentário {
+    width: 30%;
+    background-color: var(--Dark-Blue-testimonials-background);
+    padding: 30px 20px;
+    margin: 35px 20px;
+    border-radius: 5px;
+}
+
+article.artigo-comentário div {
+    display: flex;
+    width: 100%;
+    margin-top: 10px;
+}
+
+article.artigo-comentário div img {
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    position: relative;
+    top: 15px;
+}
+
+div.nome-setor {
+    display: flex;
+    flex-direction: column;
+}
+
+p.p2 {
+    font-size: 10px;
+}
+
+section.sessão-form{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+    color: var(--White);
+    font-family: "Raleway", sans-serif;
+    background-color: var(--Dark-Blue-testimonials-background);
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    top: 80px;
+    
+}
+
+section.sessão-form h1 {
+    margin-bottom: 20px;
+}
+
+section.sessão-form p {
+    margin: 20px auto 20px auto;
+    font-size: 12px;
+    width: 80%;
+    
+}
+
+input[type="Email"] {
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    padding: 12px 20px;
+    border-radius: 30px;
+    color: var(--White);
+    background-image: linear-gradient(to right, hsl(176, 68%, 64%), hsl(198, 60%, 50%));
+    font-family: "Raleway", sans-serif;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    opacity: 0.8;
+}
+
+footer.rodapé {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    background-color: var(--Dark-Blue-footer-background);
+    color: var(--White);
+    padding: 150px 50px;
+    grid-gap: 10px;
+}
+
+div.contatos {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
+div.contatos p {
+    margin: 20px 20px;
+}
+
+div.contatos p span {
+    margin-right: 10px;
+}
+
+p.p1 {
+    grid-row: 1 / 3;
+}
+
+div.logo-rodapé {
+    grid-column: 1 / 5;
+}
+
+div.links-rodape {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto auto;
+    justify-content: space-around;
+    
+}
+
+div.links-rodape a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+div.links-rodape a:hover {
+    text-decoration: underline;
+}
+
+div.redes-sociais {
+
+    text-align: center;
+    padding-top: 10px;
+}
+
+div.redes-sociais a {
+    color: var(--White);
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+div.redes-sociais a:hover {
+    color:var(--Cyan);
+    border-color: var(--Cyan);
+    
+}
+
+
+
